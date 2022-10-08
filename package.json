@@ -1,0 +1,22 @@
+{
+  "name": "rim-calculator",
+  "version": "1.0.0",
+  "description": "This is my first calculator",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamiaRimty/Rim-Calculator.git"
+  },
+  "author": "Lamia Jabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamiaRimty/Rim-Calculator/issues"
+  },
+  "homepage": "https://github.com/LamiaRimty/Rim-Calculator#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
