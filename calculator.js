@@ -3,5 +3,5 @@ const calculator = express();
 calculator.listen(3000);
 
 calculator.get("/",function(req,res){
-    console.log("hello world");
+  res.send("<h1>Hello World</h1>");
 })
