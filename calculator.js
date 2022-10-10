@@ -1,12 +1,20 @@
 //jshint esversion:6
 const express = require("express");
-const calculator = express();
+const bodyParser= require("body-parser");
 
-calculator.get("/",function(req,res){
+const app = express();
+app.use(bodyParser.urlencoded({extented: true}));
+
+app.get("/",function(req,res){
     res.sendFile(__dirname+ "/index.html");
   });
 
-calculator.listen(3000,function(){
+  calculator.post("/",function(req,res){
+    res.send("Thanks for posting");
+  });
+
+
+app.listen(3000,function(){
     console.log("Server is running on port 3000");
     });
 
